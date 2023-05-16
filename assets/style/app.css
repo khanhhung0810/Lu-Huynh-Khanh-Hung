@@ -132,13 +132,15 @@ h1{
     height: 45px;
     padding: 20px;
 }
-.head l1{
+.l1 a{
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
     color: #043673;
+    text-decoration: none;
+
 
 }
 .head img{
@@ -171,6 +173,7 @@ h1{
     line-height: 18px;
     color: #043673;
     padding-bottom: 70px;
+    text-decoration: none;
 }
 .img1 a img{
     width: 17px;
@@ -190,9 +193,7 @@ h1{
 
 flex-direction: column;
 align-items: flex-start;
-/* padding: 0px; */
-/* gap: 40px; */
-width: 657.5px;
+width: 600px;
 height: 652px;
 float: right;
 
@@ -221,6 +222,8 @@ float: right;
     font-size: 14px;
     line-height: 18px;
     color: #043673;
+    text-decoration: none;
+
 }
 .img2 a img{
     width: 17px;
@@ -234,7 +237,6 @@ float: right;
 .img3{
     display: inline-block;
     
-    height: aiu;
 }
 .img3 h4{
     width: 697px;
@@ -260,6 +262,8 @@ float: right;
     font-size: 14px;
     line-height: 18px;
     color: #043673;
+    text-decoration: none;
+
 }
 .img3 a img{
     width: 17px;
@@ -272,11 +276,11 @@ float: right;
 /* ============================================================ */
 .img4{
     
-/* flex-direction: column;
-align-items: flex-start; */
+    flex-direction: column;
+    align-items: flex-start;
 /* padding: 0px;
 gap: 40px; */
-width: 657.5px;
+width: 600px;
 height: 652px;
 float: right;
 
@@ -305,6 +309,8 @@ float: right;
     font-size: 14px;
     line-height: 18px;
     color: #043673;
+    text-decoration: none;
+
 }
 .img4 a img{
     width: 17px;
