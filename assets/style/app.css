@@ -187,13 +187,15 @@ h1{
 .img1{
     display: inline-block;
     padding-bottom: 70px;   
+    /* width: 790px;
+    height: 652px; */
 }
 /* ==================================================================================== */
 .img2 {
 
 flex-direction: column;
 align-items: flex-start;
-width: 600px;
+width: 695px;
 height: 652px;
 float: right;
 
@@ -280,7 +282,7 @@ float: right;
     align-items: flex-start;
 /* padding: 0px;
 gap: 40px; */
-width: 600px;
+width:695px;
 height: 652px;
 float: right;
 
