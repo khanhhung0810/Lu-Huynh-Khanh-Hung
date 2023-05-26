@@ -9,7 +9,8 @@ const minHeight = {
   600: '600px',
   700: '700px',
   800: '800px',
-  900: '900px'
+  900: '900px',
+  542: '542px'
 }
 module.exports = {
   minHeight

@@ -10,6 +10,7 @@ export default class SliderDemo {
   }
   addSlick () {
     this.$this.find('.slider').slick({
+      arrows: true,
       rows: 0,
       adaptiveHeight: true,
       prevArrow: '<button class="slick-prev arrows h1 text-primary-100"><span class="icomoon icon-chevron-left"></span><span class="sr-only">Prev slider</span></button>',
@@ -19,6 +20,7 @@ export default class SliderDemo {
 
 }
 new SliderDemo().init()
+
 
 
 

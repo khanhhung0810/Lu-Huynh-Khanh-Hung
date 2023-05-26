@@ -7,7 +7,8 @@ const maxHeight = {
   initial: 'initial',
   'none': 'none',
   '2k': '2000px',
-  '433' :'433px'
+  '433' :'433px',
+  '542': '542px'
 }
 module.exports = {
   maxHeight

@@ -9,7 +9,9 @@ const minWidth = {
   600: '600px',
   700: '700px',
   800: '800px',
-  900: '900px'
+  900: '900px',
+  472: '472px',
+  1000: '1000px'
 }
 module.exports = {
   minWidth
