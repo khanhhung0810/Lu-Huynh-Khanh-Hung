@@ -1,4 +1,5 @@
 import 'slick-carousel/slick/slick'
+import 'modules/SlickSlider'
 // // js Custom
 import 'modules/FixHeight'
 

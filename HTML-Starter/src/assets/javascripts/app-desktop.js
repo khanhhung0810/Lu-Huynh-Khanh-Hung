@@ -1,4 +1,5 @@
 import 'slick-carousel/slick/slick'
+import 'modules/SlickSlider'
 // // js Custom
 import 'modules/FixHeight'
 
@@ -32,3 +33,5 @@ import 'modules/ModCarouselSlide'
 import 'modules/ADA'
 
 console.log('App desktop')
+
+

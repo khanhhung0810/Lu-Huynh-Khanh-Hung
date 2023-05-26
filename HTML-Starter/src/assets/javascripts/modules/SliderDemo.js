@@ -1,4 +1,5 @@
 export default class SliderDemo {
+
   constructor () {
     this.$this = $('.mod-slider')
   }
@@ -15,5 +16,11 @@ export default class SliderDemo {
       nextArrow: '<button class="slick-next arrows h1 text-primary-100"><span class="icomoon icon-chevron-right"></span><span class="sr-only">Next slider</span></button>'
     })
   }
+
 }
 new SliderDemo().init()
+
+
+
+
+
