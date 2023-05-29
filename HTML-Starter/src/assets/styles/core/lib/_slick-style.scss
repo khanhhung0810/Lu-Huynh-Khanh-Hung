@@ -3,40 +3,47 @@
 
 // Icons /
 
-//Arrows /
+// Arrows /
 
-.slick-prev,
-.slick-next {
+.slicks-prev,
+.slicks-next {
   position: absolute;
-  top: 50%;
   display: block;
-  padding: 0;
+  padding: 1px;
   cursor: pointer;
   background: transparent;
-  border: none;
+  font-size: 30px;
   transform: translate(0, -50%);
   z-index: 11;
+  top: 380px;
+}
+
+.slicks-prev {
+  left: -5px;
 
 }
 
-.slick-prev {
-  left: -25px;
+
+.slicks-next {
+  left: 30px;
+ 
+
 }
 
-
-.slick-next {
-  right: -25px;
-}
-
-.slick-dots {
+.slicks-dotss {
   position: absolute;
-  bottom: -25px;
-  display: block;
   width: 100%;
-  padding: 0;
+  bottom: -75px;
+  display: block;
+  left: -47px;
+  width: 100%;
+  padding: 2px;
   margin: 0;
+  list-style: none;
   text-align: center;
   list-style: none;
+  display: flex;
+  gap: 60px;
 
   li {
     position: relative;
@@ -54,11 +61,14 @@
       cursor: pointer;
       border-radius: 50%;
       text-indent: -9999px;
-      @apply relative w-10 h-10 block;
+      @apply relative block ;
 
       &::after {
         content: "";
-        @apply absolute w-5 h-5 top-0 left-0 block rounded-full bg-primary-100;
+        // @apply absolute w-1 h-35 top-0 left-0 block rounded-full bg-blue-900;
+        @apply absolute top-1 left-0 block rounded-full w-35  h-1 bg-blue-900;
+      
+      
         transition: 0.3s;
         transform: translateX(50%) translateY(50%);
       }
@@ -68,7 +78,8 @@
     &.slick-active {
       button {
         &::after {
-          @apply bg-primary-200;
+            
+            @apply bg-blue-400 h-2 absolute  top-0  left-0 block rounded-full w-35 ;
         }
 
       }
@@ -76,10 +87,10 @@
   }
 }
 
-.slider,
-.slider-lazy {
-  &:not(.slick-initialized) {
-    .slider-item:not(:first-child) {
+.sliders,
+.sliders-lazy {
+  &:not(.slicks-initialized) {
+    .sliders-item:not(:first-child) {
       display: none;
     }
   }
