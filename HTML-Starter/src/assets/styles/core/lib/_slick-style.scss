@@ -15,7 +15,7 @@
   font-size: 30px;
   transform: translate(0, -50%);
   z-index: 11;
-  top: 380px;
+  top: 110%;
 }
 
 .slicks-prev {
@@ -33,7 +33,7 @@
 .slicks-dotss {
   position: absolute;
   width: 100%;
-  bottom: -75px;
+  top: 115%;
   display: block;
   left: -47px;
   width: 100%;
@@ -96,17 +96,10 @@
   }
 }
 .slider-items {
-    box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.05);
-    // padding: 50px 20px;
+    box-shadow: 0px 4px 46px rgba(0, 0, 0, 0.05);
+  
     margin-right: 0;
-    @media (min-width: 767px) {
-      margin-right: 20px;
-      
-    }
-    @media (min-width: 1280px) {
-      margin-right: 40px;
-      
-    }   
+       
 }
 
 .mod-twocol{
