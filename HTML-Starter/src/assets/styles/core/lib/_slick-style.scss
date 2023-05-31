@@ -30,20 +30,20 @@
 
 }
 
-.slicks-dotss {
+.slick-dotss {
   position: absolute;
   width: 100%;
   top: 115%;
   display: block;
   left: -47px;
-  width: 100%;
-  padding: 2px;
+  padding: 5px;
   margin: 0;
   list-style: none;
   text-align: center;
   list-style: none;
   display: flex;
   gap: 60px;
+  // padding: 10 10px;
 
   li {
     position: relative;
@@ -61,12 +61,12 @@
       cursor: pointer;
       border-radius: 50%;
       text-indent: -9999px;
-      @apply relative block ;
+      @apply relative  block ;
 
       &::after {
         content: "";
         // @apply absolute w-1 h-35 top-0 left-0 block rounded-full bg-blue-900;
-        @apply absolute top-1 left-0 block rounded-full w-35  h-0p5 bg-blue-900;
+        @apply absolute top-1 left-0 block rounded-full w-35  h-0p5 bg-blue-900 ;
       
       
         transition: 0.3s;
@@ -79,7 +79,7 @@
       button {
         &::after {
             
-            @apply bg-blue-400 h-1p5 absolute  top-0  left-0 block rounded-full w-35 ;
+            @apply bg-blue-400 h-1p5 absolute  top-0  left-0 block rounded-full w-35  ;
         }
 
       }
@@ -97,7 +97,6 @@
 }
 .slider-items {
     box-shadow: 0px 4px 46px rgba(0, 0, 0, 0.05);
-  
     margin-right: 0;
        
 }
