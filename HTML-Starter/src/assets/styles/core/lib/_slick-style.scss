@@ -66,7 +66,9 @@
       &::after {
         content: "";
         // @apply absolute w-1 h-35 top-0 left-0 block rounded-full bg-blue-900;
-        @apply absolute top-1 left-0 block rounded-full w-35  h-0p5 bg-blue-900 ;
+        @apply absolute top-1 left-0 right-0 block rounded-full w-35  h-0p5 bg-blue-900 ;
+        // top: -20px;
+        // bottom: -20px;
       
       
         transition: 0.3s;
@@ -79,7 +81,7 @@
       button {
         &::after {
             
-            @apply bg-blue-400 h-1p5 absolute  top-0  left-0 block rounded-full w-35  ;
+            @apply bg-blue-400 h-1p5 absolute  top-0  left-0 right-0 block rounded-full w-35  ;
         }
 
       }
