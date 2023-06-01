@@ -13,8 +13,8 @@ export default class SlickSlider {
         'slidesToShow': 3,
         variableWidth:true,
         arrows: true,
-        prevArrow: '<button class="slicks-prev arrows h1 text-blue-400"><span class="icomoon icon-chevron-left"></span><span class="sr-only">Prev slider</span></button>',
-        nextArrow: '<button class="slicks-next arrows h1 text-blue-400"><span class="icomoon icon-chevron-right"></span><span class="sr-only">Next slider</span></button>',
+        prevArrow: '<button class="slicks-prev arrows  text-blue-400"><span class="icomoon icon-chevron-left"></span><span class="sr-only">Prev slider</span></button>',
+        nextArrow: '<button class="slicks-next arrows  text-blue-400"><span class="icomoon icon-chevron-right"></span><span class="sr-only">Next slider</span></button>',
         dots: true,
         dotsClass:'slick-dotss',
         responsive: [
@@ -32,7 +32,6 @@ export default class SlickSlider {
 new SlickSlider().init()
 console.log('SlickSlider');
 
-  
   
   
   
