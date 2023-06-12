@@ -21,12 +21,23 @@ export default class SlickSlider {
             {
             breakpoint: 767,
             settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: true
             }
-        }] 
-})
+            
+        },
+        {
+          breakpoint:413,
+          settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true
+          }
+
+      } 
+    ]      
+});
     }
 }
 new SlickSlider().init()
