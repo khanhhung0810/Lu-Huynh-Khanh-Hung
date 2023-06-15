@@ -1,7 +1,7 @@
-export default class SlickSlider {
+export default class SlickSlider1 {
 
     constructor () {
-      this.$this = $('.mod-banner-4')
+      this.$this = $('.mod-banner-6')
     }
     init () {
       if (this.$this.length) {
@@ -9,7 +9,7 @@ export default class SlickSlider {
       }
     }
     addSlick (){
-      this.$this.find('.sliders').slick({
+      this.$this.find('.sliderss').slick({
         'slidesToShow': 3,
         variableWidth:true,
         arrows: true,
@@ -40,8 +40,8 @@ export default class SlickSlider {
 });
     }
 }
-new SlickSlider().init()
-console.log('SlickSlider');
+new SlickSlider1().init()
+// console.log('SlickSlider1');
 
   
   

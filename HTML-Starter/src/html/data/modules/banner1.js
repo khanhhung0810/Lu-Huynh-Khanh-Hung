@@ -7,4 +7,7 @@ module.exports = [
     title: 'Banner 2',
     intro: 'Short banner 2 dest'
   }
+
+  
 ]
+
