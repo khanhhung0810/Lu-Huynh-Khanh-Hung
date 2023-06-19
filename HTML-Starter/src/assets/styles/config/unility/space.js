@@ -1,4 +1,4 @@
-let max = 201
+let max = 500
 let p = 0
 let Space = {
   '0p5': '1px',
@@ -15,7 +15,16 @@ let Space = {
   '39.62':'39.62px',
   '18cc' :'16px',
   '27cc': '-27px',
-  '209': '209%'
+  '209': '209%',
+  '30rem': '-30rem',
+  '28rem': '-28rem',
+  '31rem': '-31rem',
+  '27rem': '-27rem',
+  '24rem': '-24rem',
+  '3rem': '-3rem',
+  '5rem': '-5rem',
+  '2rem': '-2rem'
+
   
 
 }

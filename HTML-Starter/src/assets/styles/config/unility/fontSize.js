@@ -25,6 +25,10 @@ const fontSize = {
   'h4-md': ['1.75rem'],
   'h5-md': ['1.5rem'],
   'h6-md': ['1.25rem'],
+  'prev-l': ['-30rem'],
+  'next-l': ['-28rem'],
+  'ul-l': ['-31rem'],
+
   'btn': ['.875em', { lineHeight: '1.2' }]
 
 }
