@@ -103,7 +103,7 @@ module.exports = {
     invert: false,
     // scale: false,
     // skew: false,
-    translate: false,
+    translate: true,
     saturate: false,
     boxShadow: false,
     sepia: false,

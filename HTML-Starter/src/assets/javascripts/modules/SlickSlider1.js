@@ -1,7 +1,7 @@
 export default class SlickSlider1 {
 
     constructor () {
-      this.$this = $('.mod-banner-6')
+      this.$this = $('.mod-banner-3')
     }
     init () {
       if (this.$this.length) {
@@ -21,18 +21,22 @@ export default class SlickSlider1 {
             {
             breakpoint: 767,
             settings: {
-                slidesToShow: 2,
+                'slidesToShow': 2,
                 slidesToScroll: 1,
-                infinite: true
+                infinite: true,
+                variableWidth: false
+
             }
             
         },
         {
-          breakpoint:413,
+          breakpoint:430,
           settings: {
-              slidesToShow: 1,
+              'slidesToShow': 1,
               slidesToScroll: 1,
-              infinite: true
+              infinite: true,
+              variableWidth: true
+
           }
 
       } 
