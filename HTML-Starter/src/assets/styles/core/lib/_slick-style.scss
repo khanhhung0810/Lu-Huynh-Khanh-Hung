@@ -4,7 +4,7 @@
 // Icons /
 
 // Arrows /
-.mod-banner-4{
+.mod-banner-5{
 
     .slicks-prev,
     .slicks-next {
@@ -100,10 +100,11 @@
     .sliders{
       @apply lg:-mr-133
     }
-    .slider-items {
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-        margin-right: 0;
-    }
+  
 
+    .slider-items {
+      box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.05);
+    }
+  
 }
 

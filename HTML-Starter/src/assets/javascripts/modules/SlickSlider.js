@@ -1,7 +1,7 @@
 export default class SlickSlider {
 
     constructor () {
-      this.$this = $('.mod-banner-4')
+      this.$this = $('.mod-banner-5')
     }
     init () {
       if (this.$this.length) {
