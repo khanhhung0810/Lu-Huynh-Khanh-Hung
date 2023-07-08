@@ -20,9 +20,12 @@ const fontSize = {
   'h5': ['1.375rem', { lineHeight: '1.45455' }],
   'h6': ['1.125rem', { lineHeight: '1.27778' }],
   'h1-md': ['3.125rem'],
+  'h1-1-md': ['2.625rem'],
+  'h2-2-md': ['2rem'],
   'h2-md': ['1.875rem'],
   'h3-md': ['1.625rem'],
   'h4-md': ['1.75rem'],
+  'h4-4-2xl': ['1.5625rem'],
   'h5-md': ['1.5rem'],
   'h6-md': ['1.25rem'],
   'prev-l': ['-30rem'],
@@ -32,6 +35,11 @@ const fontSize = {
   'btn': ['.875em', { lineHeight: '1.2' }]
 
 }
+let max = 50;
+for (let i = 1; i <= max; i+=0.5){
+  fontSize[i] = i * 2 + 'px';
+}
+
 module.exports = {
   fontSize
 }
