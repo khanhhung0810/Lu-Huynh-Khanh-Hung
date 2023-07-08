@@ -6,20 +6,21 @@ ourTeam: My Team
 {% block bodyClass %}class="page-home has-animation"{% endblock %}
 
 {% block content %}
-<main id="main-content" class="main-content pt-40">
-    {% include 'modules/mod-banner-internal.html' %}
-    {% include 'modules/mod-hello-world.html' %}
-    <h3>{{title}}</h3>
-    <p>{{contentP}}</p>
-    <img
-      data-src="https://cdn.agilitycms.com/9th-wonder/MediaGroupings/15/nha-trang-1.jpg"
-      src="{{imagesBase64}}"
-      alt="name image"
-      class="lazy"
-    />
-    <h4>{{banner}}</h4>
-    <h5>{{interJs}}</h5>
-
+<main id="main-content" class="main-content ">
+    <!-- {% include 'modules/mod-banner-internal.html' %}
+    {% include 'modules/mod-hello-world.html' %} -->
+    {% include 'modules/mod-banner-1.html' %}
+    {% include 'modules/mod-banner-2.html' %}
+    {% include 'modules/mod-banner-3.html' %}
+    {% include 'modules/mod-banner-4.html' %}
+    {% include 'modules/mod-banner-5.html' %}
+    {% include 'modules/mod-banner-6.html' %}
+    {% include 'modules/mod-banner-7.html' %}
+    <div class="space h-50 "></div>
+    {% include 'modules/mod-banner-8.html' %}
+    <div class="space h-50 "></div>
+    {% include 'modules/mod-banner-9.html' %}
+   
 </main>
 
 {% endblock %}

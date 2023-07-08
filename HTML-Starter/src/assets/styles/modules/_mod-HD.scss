@@ -1,0 +1,358 @@
+
+#header-ergo {
+    li {
+        margin-bottom: 0;
+    }
+    background-color: white;
+    width: 100%;
+    .container {
+        @apply px-0 md:px-24;
+    }
+    .main-nav {
+        .wrapper-main-nav {
+            background-color: #F5F8FA;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 13px 0;
+        }
+        p {
+            margin-bottom: 0;
+            color: #1D2020;
+            font-size: 16px;
+
+        }
+        .box-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        strong {
+            color: #043673;
+            font-size: 15px;
+
+        }
+    }
+
+}
+.menu-page-desktop {
+    @apply flex 2xxl:h-85 xl:h-65;
+    .header-logo-desktop {
+       
+        @apply flex relative z-10 bg-blue-900 
+        2xl:w-108 2xl:h-100 2xl:pt-25 2xl:pl-117 2xl:ml-50
+        xl:w-50 xl:h-65 xl:pt-19 xl:pl-87 xl:ml-18;
+        a{
+           
+            @apply flex z-10 justify-between py-0 px-20 2xxl:mt-40 xl:mt-25  ;
+        }
+    }
+    .main-menu {
+        width: 100%;
+        padding-left: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-top {
+        align-items: end;
+    }
+    .menu-bot{
+        align-items: center;
+    }
+    .menu-top,.menu-bot{
+    
+        @apply flex justify-between 2xxl:w-95p 2xxl:h-50p xl:w-97p xl:h-50p;
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        li{
+            display: inline-block;
+        }
+    }
+}
+.menu-page-mobile {
+    display: none;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    // height: 70px;
+    z-index: 9999;
+    width: 100%;
+    // search 
+    .box-search{
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+        background-color: #fff;
+        width: 100%;
+        input{
+            background-color: #4197B4;
+            width: calc(100vw - 14px);
+            position: relative;
+            height: 56px;
+            border-radius: 4px;
+            background-color: #f5f8fa;
+            padding: 16px 60px 16px 16px;
+        }
+        span {
+            position: absolute;
+            right: 25px;
+            font-size: 29px;
+            color: #4197B4;
+            font-weight: 700;
+        }
+    }
+    .menu-logo {
+        // relative menu-logo w-93 h-35p5 flex justify-center items-center  bg-Wellness-Blue
+        // position: ;
+        width: 186px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #4197B4;
+        div {
+            // w-full h-full absolute inset-0
+            width: 100%;
+            height: 100%;
+            a{
+                // py-8 absolute w-full h-full flex items-center justify-center
+                padding: 16px;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+        }
+    }
+    .menu-item {
+        margin-bottom: 48px;
+    }
+    .icon-chevron-right,.icon-chevron-down{
+        font-size: 24px;
+        color: #4197B4;
+    }
+    .my-account,.main-menu-ul,.flex-menu-bottom  {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .my-account{
+        margin-bottom: 48px;
+        li{
+            font-weight: 700 !important;
+        }
+    }
+    .main-menu-ul {
+        margin-bottom: 72px;
+    }
+    .menu-bottom {
+        padding: 16px;
+        background-color: #F5F8FA;
+        .flex-sub-menu-bottom {
+            margin-top: 10px;
+            flex-direction: column;
+            gap: 24px;
+        }
+    }
+    .menu-icon {
+        width: calc(100% - 186px);
+        padding: 0;
+        display: flex;
+        button > span:nth-child(2) {
+            display: none;
+        }
+        .icon-bar {
+            div{
+                width: 35px;
+                height: 5px;
+                margin: 6px 0;
+                transition: all 0.25s;
+                background-color: black;
+            }
+        }
+    }
+    button {
+        @apply no-underline text-blue-400 w-1/4 text-2xl;
+    }
+    .last-color:last-child {
+        @apply text-blue-900;
+    }
+    
+    .bg-under {
+        display: none;   
+        position: fixed;
+        z-index: 10;
+        top:70px;
+        left: 0;
+        right: 0;
+        background: white;
+        height: 100vh;
+        .wrapper {
+            padding: 48px 40px 72px 40px;
+            .none-flex {
+                justify-content: start;
+                gap: 7px;
+            }
+            li{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 140%;
+                color: #1D2020;
+            }
+        }
+    }
+    .sub-main-menu {
+        display: block;
+        min-width: 100%;
+        position: absolute;
+        top: 100px;
+        left: 100%;
+        right: 0;
+        height: calc(100vh - 128px);
+        z-index: 11;
+        background-color: white;
+        padding: 0 40px;
+        .menu-arrow{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 48px;
+            .icon-arrow-left{
+                font-size: 18px;
+                color: #4197B4;
+            }
+            .font-14 {
+                font-size: 14px;
+            }
+        }
+        .title-menu{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 140%;
+            color:  #4197B4;
+            margin-bottom: 32px;
+        }
+        .sub-title-menu {
+            margin-bottom: 24px;
+            a{
+
+                color: #000;
+                font-size: 16px;
+                line-height: 150%;
+                font-weight: 700;
+                text-decoration:none;
+            }
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            margin-bottom: 56px;
+            li{
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 140%;
+            }
+        }
+        .link-adjust{
+            height: 48px;
+            width: 216px;
+            background-color: #043673;
+            border-radius: 4px;
+            display: inline-block;
+            a{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                padding: 8px 32px;
+                font-size: 14px;
+                font-weight: 700;
+                color: #fff;
+                font-size: 14px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 415px) {
+    #header-ergo {
+        .main-nav {
+            display: none;
+        }
+        .menu-page-desktop {
+            display: none;
+            .header-logo-desktop {
+                display: none;
+                position: static;
+            }
+        }
+        .menu-page-mobile {
+            display: flex;
+        }
+    }
+}
+@media (max-width: 769px) {
+    #header-ergo {
+        .main-nav {
+            display: none;
+        }
+        .menu-page-desktop {
+            display: none;
+            .header-logo-desktop {
+                display: none;
+                position: static;
+            }
+        }
+        .menu-page-mobile {
+            display: flex;
+        }
+    }
+}
+
+.open {
+    animation: open 0.25s ease-in-out forwards;
+}
+
+.reset {
+    animation: open 0s ease-in-out forwards;
+}
+
+.close {
+    animation: close 0.25s ease-in-out forwards;
+}
+
+@keyframes open {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes close {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+}
+//////////////////
