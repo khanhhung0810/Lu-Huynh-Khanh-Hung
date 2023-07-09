@@ -19,37 +19,61 @@
   
         </div>
         <div class="main-menu">
+         
           <div class="menu-top">
             <ul class="menu-top-left">
-              <li>Shop Ergomotion</li>
+              <li class="text-blue-900">Shop Ergomotion</li>
               <li>Private Label</li>
               <li>
                 <span>Our brands</span>
                 <span class="icomoon icon-chevron-down"></span>
               </li>
             </ul>
-            <ul class="menu-top-right">
+            <div class="right">
+            <ul class="icon flex gap-20  menu-top-right">
+          
               <li>
                 <span class="icomoon icon-location-outline"></span>
-                <span>Stores</span>
+                <span class="p" >Stores</span>
               </li>
-              <li>
-                <span class="icomoon icon-search"></span>
-                <span>Search</span>
+
+              
+              <li id="icon-search" class="flex gap-5 m-0 p-0">
+                <div class="icon">
+                    <span class="icomoon icon-search"></span>
+                    <span class="p">Search</span>
+                </div>
+                
               </li>
+
               <li>
-                <span class="icomoon icon-user-plus"></span>
-                <span>My Account</span>
+                <span class="icomoon icon-person"></span>
+                <span class="p">My Account</span>
               </li>
               <li>
                 <span class="icomoon icon-cart1"></span>
-                <span>Cart(0)</span>
-              </li>
+                <span class="p">Cart(0)</span>
+              </li>              
             </ul>
+            <div class="search-frame relative hidden -right-15 h-30 w-250">
+              <div class="search-box flex rounded p-5 h-full w-full">
+                <input class="outline-none w-full py-5 pl-5"
+                  type="text" placeholder="Search">
+                <div class="h-full flex justify-center items-center w-25 cursor-pointer">
+                  <span class="icomoon icon-search"></span>
+
+                </div>
+              </div>
+              <div id="close-search-box" class="h-full flex justify-center items-center w-25 cursor-pointer">
+                <span class="icomoon icon-close"></span>
+              </div>
+            </div>
+          </div>
+          
           </div>
           <div class="menu-bot">
             <ul class="menu-bot-left">
-              <li>Adjustable bases</li>
+              <li class="xl:text-blue-900 2xl:text-darkblack" >Adjustable bases</li>
               <li>Base Accessories</li>
               <li>Bedding & pillows</li>
             </ul>
@@ -73,7 +97,7 @@
         <div class="bg-under">
           <div class="wrapper menu">
               <div class="menu-item">
-                  <span class="icomoon icon-user-plus"></span>
+                  <span class="icomoon icon-person"></span>
                   <a href="#">My account</a>
               </div>
               <div class="box-main-menu">
@@ -123,7 +147,7 @@
               <span>Adjustable bases</span>
             </div>
             <div class="sub-title-menu">
-              <a href="">Quest Adjustable Bases</a>
+              <a href="#">Quest Adjustable Bases</a>
             </div>
             <ul >
               <li>Quest 1.0</li>
@@ -134,7 +158,7 @@
               <li>Quest Zone</li>
             </ul>
             <div class="link-adjust">
-              <a href="">Compare Quest Bases</a>
+              <a href="#">Compare Quest Bases</a>
             </div>
           </div>
           <div class="sub-access sub-main-menu">
@@ -189,7 +213,7 @@
               <li>FAQ</li>
             </ul>
             <div class="link-adjust">
-              <a href="">Compare Quest Bases</a>
+              <a href="#">Compare Quest Bases</a>
             </div>
           </div>
           <div class="sub-learn sub-main-menu">
@@ -211,24 +235,24 @@
               <li>Lifestyle benefits</li>
             </ul>
             <div class="link-adjust">
-              <a href="">Compare Quest Bases</a>
+              <a href="#">Compare Quest Bases</a>
             </div>
   
           </div>
         </div>
         <div class="menu-logo">
               <div>
-                <a class="" href="#"><img class="w-39" src="assets/images/LogoFooter.svg" alt=""></a>
+                <a href="#"><img class="w-39" src="assets/images/LogoFooter.svg" alt="logo"></a>
               </div>
         </div>
         <div class="menu-icon">
-          <button class="">
+          <button title="search-icon">
             <span class="icomoon icon-search"></span>
             <span class="close-search-box">X</span>
           </button>
-          <button><span class="icomoon icon-location-outline"></span></button>
-          <button><span class="icomoon icon-cart1"></span></button>
-          <button class="icon-bar last-color">
+          <button title="location-icon"><span class="icomoon icon-location-outline"></span></button>
+          <button title="cart1-icon"><span class="icomoon icon-cart1"></span></button>
+          <button  title="icon-bar" class="icon-bar last-color">
             <div></div>
             <div></div>
             <div></div>
