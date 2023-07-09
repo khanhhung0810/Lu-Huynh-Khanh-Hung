@@ -10,6 +10,8 @@ import 'modules/CheckDevice'
 import 'modules/ConvertSvg'
 import 'modules/LazyLoadImage'
 import 'modules/HeaderErgo'
+import 'modules/Search'
+
 
 import 'modules/FormAnimation'
 

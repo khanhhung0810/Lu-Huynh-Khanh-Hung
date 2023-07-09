@@ -20,6 +20,10 @@
     @apply text-primary-100 border-white bg-white;
     @apply hover:bg-transparent hover:text-white;
   }
+  .btn-hd{
+    @apply font-bold  bg-blue-400 text-white px-10 py-5 rounded no-underline w-full ; 
+    @apply hover:bg-blue-900 hover:text-white ;
+  }
   @media (prefers-reduced-motion){
     .btn{
       transition: 0s all;
