@@ -2,7 +2,7 @@ module.exports =[
     {
     
         'title1': 'Quest 1.0',
-        image:'assets/images/bedroom.png',
+        image:'assets/images/4bed.jpg',
         Subheadline: 'Starting at $649',
         'Description':' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit.',
         button1: {
@@ -16,7 +16,7 @@ module.exports =[
     {
         
         'title1': 'Quest 2.0',
-        image:'assets/images/bedroom.png',
+        image:'assets/images/4bed.jpg',
         Subheadline: 'Starting at $649',
         'Description':' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit.',
         button1: {
@@ -32,7 +32,7 @@ module.exports =[
     {
        
         'title1': 'Quest 3.0',
-        image:'assets/images/bedroom.png',
+        image:'assets/images/4bed.jpg',
         Subheadline: 'Starting at $649',
         'Description':' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit.',
         button1: {
@@ -48,7 +48,7 @@ module.exports =[
     {
         
         'title1': 'Quest 4.0',
-        image:'assets/images/bedroom.png',
+        image:'assets/images/4bed.jpg',
         Subheadline: 'Starting at $649',
         'Description':' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit.',
         button1: {

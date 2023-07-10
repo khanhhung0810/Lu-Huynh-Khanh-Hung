@@ -45,7 +45,6 @@ export default class SlickSlider1 {
     }
 }
 new SlickSlider1().init()
-// console.log('SlickSlider1');
 
   
   

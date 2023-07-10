@@ -2,8 +2,7 @@
     li {
         @apply mb-0;
     }
-    background-color: white;
-    width: 100%;
+    @apply bg-white w-100p;
     .container {
         @apply px-0 md:px-24;
     }
@@ -116,26 +115,11 @@
         }
     }
     .menu-logo {
-        // relative menu-logo w-93 h-35p5 flex justify-center items-center  bg-Wellness-Blue
-        // position: ;
-        width: 186px;
-        height: 70px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #4197B4;
-        div {
-            // w-full h-full absolute inset-0
-            width: 100%;
-            height: 100%;
+        @apply w-93 h-35 flex justify-center items-center bg-blue-900 ;
+        div {           
+            @apply w-100p h-100p ;
             a{
-                // py-8 absolute w-full h-full flex items-center justify-center
-                padding: 16px;
-                width: 100%;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+               @apply p-8 w-100p h-100p flex justify-center items-center;
             }
 
         }
@@ -151,31 +135,25 @@
 
     }
     .icon-chevron-right,.icon-chevron-down{
-        font-size: 24px;
-        color: #4197B4;
+        @apply text-12 text-blue-900 ;
     }
     .my-account,.main-menu-ul,.flex-menu-bottom  {
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
+        @apply mt-5 flex flex-col gap-12 ;
     }
     .my-account{
-        margin-bottom: 48px;
+        @apply mb-24 ; 
         li{
             font-weight: 700 !important;
         }
     }
     .main-menu-ul {
-        margin-bottom: 72px;
+        @apply mb-36 ;
     }
     .menu-bottom {
-        padding: 16px;
-        background-color: #F5F8FA;
-        .flex-sub-menu-bottom {
-            margin-top: 10px;
-            flex-direction: column;
-            gap: 24px;
+        @apply p-8 bg-gray-400 ;
+      
+        .flex-sub-menu-bottom {       
+            @apply mt-5 flex-col gap-12;
         }
     }
     .menu-icon {
@@ -186,12 +164,9 @@
             display: none;
         }
         .icon-bar {
+            @apply mt-8p md:mt-3p;
             div{
-                width: 28px;
-                height: 2px;
-                margin: 6px 10px;
-                transition: all 0.25s;
-                background-color: #043673;
+               
                 @apply w-12 h-1 transition-all bg-blue-400 my-3 mx-5 md:mx-30  ;
             }
         }
@@ -374,10 +349,10 @@
         transform: translate(0, 11px) rotate(-45deg);
       }
       
-      /* Fade out the second bar */
+     
      div:nth-child(2) {opacity: 0;}
       
-      /* Rotate last bar */
+     
     div:nth-child(3) {
         transform: translate(0, -11px) rotate(45deg);
       }

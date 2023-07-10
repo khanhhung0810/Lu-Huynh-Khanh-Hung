@@ -267,6 +267,45 @@ h6 {
 .social,
 #modal,
 .hamburger-menu,
-.form-contact, {
+.form-contact,
+#header-ergo,
+.footer
+ {
   display: none;
 }
+
+.mod-banner-2 img, .mod-banner-1 a, .mod-banner-9, .mod-banner-3{
+  display: none;
+}
+
+.mod-banner-2 .head-content p{
+font-size: 35px;
+font-weight: 700;
+margin-bottom: 20pt;
+
+}
+
+.mod-banner-4 .vecto{
+  display: none;
+
+}
+.mod-banner-5 .title  {
+  @apply hidden ;
+}
+.mod-banner-7 .title img {
+  @apply hidden ;
+}
+.mod-banner-6{
+  @apply mt-50 ;
+  
+}
+.mod-banner-7{
+  @apply mt-50 ;
+}
+.mod-banner-8{
+  @apply mt-50 ;
+}
+.mod-banner-2{
+  @apply my-50 ;
+}
+

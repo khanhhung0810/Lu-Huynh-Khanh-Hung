@@ -1,9 +1,5 @@
 @charset 'UTF-8';
-// stylelint-disable
 
-// Icons /
-
-// Arrows /
 .mod-banner-5{
 
     .slicks-prev,
@@ -74,7 +70,6 @@
             width: 100%;
             @apply absolute top-0 left-0 right-0 block rounded-full w-full  h-0p5 bg-blue-900 ;
             transition: 0.3s;
-            // transform: translateY(50%);
           }
         }
     

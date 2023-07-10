@@ -1,4 +1,4 @@
-export default class Special {
+export default class Search {
     constructor () {
       this.$this = $('mod-HD')
     }
@@ -26,4 +26,4 @@ export default class Special {
       });
     }
   }
-  new Special().init()
+  new Search().init()
