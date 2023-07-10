@@ -1,31 +1,31 @@
 <section class="module mod-banner-4 font-plus " >
     <div class="container">
       <div class="px-10">
-          <div class="  flex flex-col lg:flex-row justify-between mb-20">
-            <h2 class=" text-h2 font-medium">Meet the Quest product line headline</h2>
+          <div class="title flex flex-col lg:flex-row justify-between mb-20">
+            <h2>Meet the Quest product line headline</h2>
       
-            <a href="#" class="title-click flex gap-5 font-bold text-10 text-blue-400 no-underline items-center">
+            <a href="#" class="title-click flex gap-5 font-bold md:text-7 text-blue-400 no-underline items-center">
              Compare all Quest adjustable bases 
-              <img class="inline ml-5" src="assets/images/vecto.svg" alt="">
+              <img src="{{imagesBase64}}"  class="vecto lazy inline ml-5" data-src="assets/images/vecto.svg" alt="vecto" width="24" height="24">
             </a>
           </div>
         </div>
          
   
-      <div class="box-products">  <!--css riêng trong _mod-banner-4.scss để nhìn cho  gọn  -->
+      <div class="box-products">  
           <div class="row px-15 ">
             {% for i in col %}
               <div class=" w-full md:w-1/2 mb-20  px-3 col ">
-                    <img  src="{{i.image}}" alt="room">
+                    <img  src="{{imagesBase64}}" class="lazy" data-src="{{i.image}}" alt="room" width="728" height="332">
                     <div class="px-5 md:px-10 lg:px-0">
                     <h3>{{i.title1}}</h3>   
                     <h4>{{i.Subheadline}}</h4>
                     <p>{{i.Description}}</p>
-                    <a href="">{{i.button1.textbutton}}<img class="inline ml-5"  src="{{i.button1.images}}" alt="vecto"></a></div>    
-              </div> <!--End col w-1/2 px-3 -->
+                    <a href="#">{{i.button1.textbutton}}<img src="{{imagesBase64}}" class="vecto lazy inline ml-5"  data-src="{{i.button1.images}}" alt="vecto" width="24" height="24"></a></div>    
+              </div> 
             {% endfor %}
-          </div>   <!--End row pb-42 -->
-   </div>   <!-- End box-products -->
-  </div> <!-- End container -->
-</section><!--End mod-twocol -->
+          </div>   
+   </div>   
+  </div> 
+</section>
 <div class="space h-10 "></div>
